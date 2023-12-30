@@ -1,0 +1,13 @@
+abi-dir = "./data/artifacts/abi"
+addresses-file = "./data/dist/deployments/prod_addresses.json"
+
+[account]
+path = "./data/account.json"
+password = "test"
+
+[chains.ethereum]
+rpc-url = "https://test.rpc"
+deployment-block = 18583489
+[chains.optimism]
+rpc-url = "https://test.rpc"
+deployment-block = 107899275
